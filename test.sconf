@@ -1,0 +1,23 @@
+=
+{name -> lemonde}
+{url -> https://www.lemonde.fr}
+
+=
+{name -> liberation}
+{url -> https://www.liberation.fr}
+
+
+
+==
+{name -> intensif}
+{second -> 10}
++
+{lemonde,liberation}
+
+==
+{name -> tranquille}
+{minute -> 2}
+{second -> 10}
++
+{lemonde}
+
